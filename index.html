@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Especial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="envelope-container">
+    <div class="envelope">
+        <div class="envelope-flap"></div>
+        <div class="envelope-body">
+            <div class="invite-content">
+                <img src="./img/vale-presente.jpeg" alt="vale-presente">
+                </div>
+        </div>
+        <div class="envelope-bottom-flap"></div>
+    </div>
+</div>
+<script>
+    const envelope = document.querySelector('.envelope');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('open');
+    });
+</script>
+</body>
+</html>
