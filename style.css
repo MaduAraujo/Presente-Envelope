@@ -95,5 +95,5 @@ body {
 }
 
 .envelope.open .invite-content img {
-    transform: scale(3.5);
+    transform: scale(3.3);
 }
